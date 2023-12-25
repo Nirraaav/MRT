@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.329" timestamp="2023-12-25T20:36:04.373202" hostname="maverick"><testcase classname="nirav_assn2.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/src/nirav_assn2/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="nirav_assn2.test.test_flake8" name="test_flake8" time="0.124"><failure message="AssertionError: Found 33 code style errors / warnings:&#10;  ./all_nodes.launch.py:1:1: F401 'launch' imported but unused&#10;  ./all_nodes.launch.py:5:1: E302 expected 2 blank lines, found 1&#10;  ./setup.py:23:9: W191 indentation contains tabs&#10;  ./setup.py:23:9: E101 indentation contains mixed spaces and tabs&#10;  ./setup.py:24:9: W191 indentation contains tabs&#10;  ./setup.py:24:9: E101 indentation contains mixed spaces and tabs&#10;  ./setup.py:25:9: W191 indentation contains tabs&#10;  ./setup.py:25:9: E101 indentation contains mixed spaces and tabs&#10;  ./setup.py:26:9: W191 indentation contains tabs&#10;  ./setup.py:26:9: E101 indentation contains mixed spaces and tabs&#10;  ./src/d_rover3.py:8:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover3.py:18:24: F541 f-string is missing placeholders&#10;  ./src/d_rover3.py:20:100: E501 line too long (119 &gt; 99 characters)&#10;  ./src/d_rover3.py:24:100: E501 line too long (116 &gt; 99 characters)&#10;  ./src/d_rover3.py:26:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover3.py:33:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./src/d_rover1.py:8:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover1.py:20:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover1.py:27:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./src/d_rover4.py:7:1: F401 'std_msgs.msg.String' imported but unused&#10;  ./src/d_rover4.py:10:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover4.py:20:38: W291 trailing whitespace&#10;  ./src/d_rover4.py:25:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover4.py:32:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./src/basestation.py:9:1: E302 expected 2 blank lines, found 1&#10;  ./src/basestation.py:29:1: W293 blank line contains whitespace&#10;  ./src/basestation.py:44:1: W293 blank line contains whitespace&#10;  ./src/basestation.py:51:1: E302 expected 2 blank lines, found 1&#10;  ./src/basestation.py:58:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./src/d_rover2.py:8:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover2.py:22:1: E302 expected 2 blank lines, found 1&#10;  ./src/d_rover2.py:29:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./src/d_rover2.py:31:1: W293 blank line contains whitespace&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 33 code style errors / warnings:
+E     ./all_nodes.launch.py:1:1: F401 'launch' imported but unused
+E     ./all_nodes.launch.py:5:1: E302 expected 2 blank lines, found 1
+E     ./setup.py:23:9: W191 indentation contains tabs
+E     ./setup.py:23:9: E101 indentation contains mixed spaces and tabs
+E     ./setup.py:24:9: W191 indentation contains tabs
+E     ./setup.py:24:9: E101 indentation contains mixed spaces and tabs
+E     ./setup.py:25:9: W191 indentation contains tabs
+E     ./setup.py:25:9: E101 indentation contains mixed spaces and tabs
+E     ./setup.py:26:9: W191 indentation contains tabs
+E     ./setup.py:26:9: E101 indentation contains mixed spaces and tabs
+E     ./src/d_rover3.py:8:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover3.py:18:24: F541 f-string is missing placeholders
+E     ./src/d_rover3.py:20:100: E501 line too long (119 &gt; 99 characters)
+E     ./src/d_rover3.py:24:100: E501 line too long (116 &gt; 99 characters)
+E     ./src/d_rover3.py:26:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover3.py:33:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./src/d_rover1.py:8:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover1.py:20:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover1.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./src/d_rover4.py:7:1: F401 'std_msgs.msg.String' imported but unused
+E     ./src/d_rover4.py:10:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover4.py:20:38: W291 trailing whitespace
+E     ./src/d_rover4.py:25:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover4.py:32:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./src/basestation.py:9:1: E302 expected 2 blank lines, found 1
+E     ./src/basestation.py:29:1: W293 blank line contains whitespace
+E     ./src/basestation.py:44:1: W293 blank line contains whitespace
+E     ./src/basestation.py:51:1: E302 expected 2 blank lines, found 1
+E     ./src/basestation.py:58:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./src/d_rover2.py:8:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover2.py:22:1: E302 expected 2 blank lines, found 1
+E     ./src/d_rover2.py:29:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./src/d_rover2.py:31:1: W293 blank line contains whitespace
+E   assert 1 == 0</failure></testcase><testcase classname="nirav_assn2.test.test_pep257" name="test_pep257" time="0.037" /></testsuite></testsuites>

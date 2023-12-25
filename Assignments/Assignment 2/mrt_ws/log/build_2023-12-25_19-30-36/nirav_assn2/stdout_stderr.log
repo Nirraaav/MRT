@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/nirav_assn2/nirav_assn2.egg-info/PKG-INFO
+writing dependency_links to ../../build/nirav_assn2/nirav_assn2.egg-info/dependency_links.txt
+writing entry points to ../../build/nirav_assn2/nirav_assn2.egg-info/entry_points.txt
+writing requirements to ../../build/nirav_assn2/nirav_assn2.egg-info/requires.txt
+writing top-level names to ../../build/nirav_assn2/nirav_assn2.egg-info/top_level.txt
+reading manifest file '../../build/nirav_assn2/nirav_assn2.egg-info/SOURCES.txt'
+writing manifest file '../../build/nirav_assn2/nirav_assn2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages/nirav_assn2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nirav_assn2/nirav_assn2.egg-info to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages/nirav_assn2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing basestation script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+Installing d_rover1 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+Installing d_rover2 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+Installing d_rover3 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+Installing d_rover4 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+writing list of installed files to '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/install.log'

@@ -114,19 +114,12 @@ class Scientist(User):
         print(f"{self.user_id} is viewing the location of Rover ID: {rover.rover_id}")
         print(f"Rover Location: {rover.location}") 
 
-    def get_user_type(self):
-        return type(self).__name__  
-
-
 class Operator(User):
     def move_rover(self, rover):
         x = float(input("Enter the X amount to move the rover: "))
         y = float(input("Enter the Y amount to move the rover: "))
         move_amount = (x, y)
         rover.change_location(rover.swarm_id, rover.rover_id, move_amount) 
-
-    def get_user_type(self):
-        return type(self).__name__  
 
 
 class Manager(User):
@@ -137,10 +130,6 @@ class Manager(User):
     def remove_rover(self, rover):
         self.controlled_rovers.remove((rover.swarm_id, rover.rover_id))
         print(f"{self.user_id} removed Rover ID: {rover.rover_id} from controlled rovers.")
-
-    def get_user_type(self):
-        return type(self).__name__  
-
 
 class Admin(User):
     def __init__(self, user_id):
@@ -157,7 +146,7 @@ class Admin(User):
 
     def logout(self):
         print(f"Logging out {self.user_id}...")
-        return None  # Return None or perform any other necessary action for logout
+        login()
 
 
 def get_rover_by_id(rover_id):

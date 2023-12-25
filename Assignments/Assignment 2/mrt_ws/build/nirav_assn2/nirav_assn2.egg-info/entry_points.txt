@@ -1,0 +1,6 @@
+[console_scripts]
+basestation = nirav_assn2.basestation:main
+d_rover2 = nirav_assn2.d_rover2:main
+d_rover3 = nirav_assn2.d_rover3:main
+d_rover4 = nirav_assn2.d_rover4:main
+

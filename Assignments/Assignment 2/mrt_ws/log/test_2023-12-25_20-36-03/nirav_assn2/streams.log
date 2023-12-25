@@ -1,0 +1,229 @@
+[0.397s] Invoking command in '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/src/nirav_assn2': AMENT_PREFIX_PATH=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short "--junit-xml=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/pytest.xml" --junit-prefix=nirav_assn2 -o "cache_dir=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/.pytest_cache" PYTHONPATH=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.771s] [1m============================= test session starts ==============================[0m
+[0.772s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.776s] cachedir: /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/.pytest_cache
+[0.777s] rootdir: /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/src/nirav_assn2
+[0.777s] plugins: ament-lint-0.12.9, ament-pep257-0.12.9, launch-testing-ros-0.19.6, ament-flake8-0.12.9, ament-xmllint-0.12.9, launch-testing-1.0.4, ament-copyright-0.12.9, anyio-4.1.0, cov-3.0.0, colcon-core-0.15.1
+[0.867s] [1mcollecting ... [0m[1m
+[0.867s] collected 3 items                                                              [0m
+[0.867s] 
+[0.873s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[1.058s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.097s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.097s] 
+[1.097s] =================================== FAILURES ===================================
+[1.097s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.097s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.147s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.147s] [1m[31mE   AssertionError: Found 33 code style errors / warnings:[0m
+[1.147s] [1m[31mE     ./all_nodes.launch.py:1:1: F401 'launch' imported but unused[0m
+[1.147s] [1m[31mE     ./all_nodes.launch.py:5:1: E302 expected 2 blank lines, found 1[0m
+[1.147s] [1m[31mE     ./setup.py:23:9: W191 indentation contains tabs[0m
+[1.148s] [1m[31mE     ./setup.py:23:9: E101 indentation contains mixed spaces and tabs[0m
+[1.148s] [1m[31mE     ./setup.py:24:9: W191 indentation contains tabs[0m
+[1.148s] [1m[31mE     ./setup.py:24:9: E101 indentation contains mixed spaces and tabs[0m
+[1.148s] [1m[31mE     ./setup.py:25:9: W191 indentation contains tabs[0m
+[1.148s] [1m[31mE     ./setup.py:25:9: E101 indentation contains mixed spaces and tabs[0m
+[1.148s] [1m[31mE     ./setup.py:26:9: W191 indentation contains tabs[0m
+[1.148s] [1m[31mE     ./setup.py:26:9: E101 indentation contains mixed spaces and tabs[0m
+[1.148s] [1m[31mE     ./src/d_rover3.py:8:1: E302 expected 2 blank lines, found 1[0m
+[1.148s] [1m[31mE     ./src/d_rover3.py:18:24: F541 f-string is missing placeholders[0m
+[1.148s] [1m[31mE     ./src/d_rover3.py:20:100: E501 line too long (119 > 99 characters)[0m
+[1.148s] [1m[31mE     ./src/d_rover3.py:24:100: E501 line too long (116 > 99 characters)[0m
+[1.148s] [1m[31mE     ./src/d_rover3.py:26:1: E302 expected 2 blank lines, found 1[0m
+[1.148s] [1m[31mE     ./src/d_rover3.py:33:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1.148s] [1m[31mE     ./src/d_rover1.py:8:1: E302 expected 2 blank lines, found 1[0m
+[1.148s] [1m[31mE     ./src/d_rover1.py:20:1: E302 expected 2 blank lines, found 1[0m
+[1.148s] [1m[31mE     ./src/d_rover1.py:27:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1.148s] [1m[31mE     ./src/d_rover4.py:7:1: F401 'std_msgs.msg.String' imported but unused[0m
+[1.148s] [1m[31mE     ./src/d_rover4.py:10:1: E302 expected 2 blank lines, found 1[0m
+[1.149s] [1m[31mE     ./src/d_rover4.py:20:38: W291 trailing whitespace[0m
+[1.149s] [1m[31mE     ./src/d_rover4.py:25:1: E302 expected 2 blank lines, found 1[0m
+[1.149s] [1m[31mE     ./src/d_rover4.py:32:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1.149s] [1m[31mE     ./src/basestation.py:9:1: E302 expected 2 blank lines, found 1[0m
+[1.149s] [1m[31mE     ./src/basestation.py:29:1: W293 blank line contains whitespace[0m
+[1.149s] [1m[31mE     ./src/basestation.py:44:1: W293 blank line contains whitespace[0m
+[1.149s] [1m[31mE     ./src/basestation.py:51:1: E302 expected 2 blank lines, found 1[0m
+[1.149s] [1m[31mE     ./src/basestation.py:58:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1.149s] [1m[31mE     ./src/d_rover2.py:8:1: E302 expected 2 blank lines, found 1[0m
+[1.149s] [1m[31mE     ./src/d_rover2.py:22:1: E302 expected 2 blank lines, found 1[0m
+[1.149s] [1m[31mE     ./src/d_rover2.py:29:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1.149s] [1m[31mE     ./src/d_rover2.py:31:1: W293 blank line contains whitespace[0m
+[1.149s] [1m[31mE   assert 1 == 0[0m
+[1.149s] ----------------------------- Captured stdout call -----------------------------
+[1.149s] 
+[1.149s] ./all_nodes.launch.py:1:1: F401 'launch' imported but unused
+[1.149s] import launch
+[1.149s] ^
+[1.149s] 
+[1.150s] ./all_nodes.launch.py:5:1: E302 expected 2 blank lines, found 1
+[1.150s] def generate_launch_description():
+[1.150s] ^
+[1.150s] 
+[1.150s] ./setup.py:23:9: W191 indentation contains tabs
+[1.150s]         	'd_rover2 = nirav_assn2.d_rover2:main',
+[1.150s]         ^
+[1.150s] 
+[1.150s] ./setup.py:23:9: E101 indentation contains mixed spaces and tabs
+[1.150s]         	'd_rover2 = nirav_assn2.d_rover2:main',
+[1.150s]         ^
+[1.150s] 
+[1.150s] ./setup.py:24:9: W191 indentation contains tabs
+[1.150s]         	'd_rover3 = nirav_assn2.d_rover3:main',
+[1.150s]         ^
+[1.150s] 
+[1.150s] ./setup.py:24:9: E101 indentation contains mixed spaces and tabs
+[1.150s]         	'd_rover3 = nirav_assn2.d_rover3:main',
+[1.150s]         ^
+[1.151s] 
+[1.151s] ./setup.py:25:9: W191 indentation contains tabs
+[1.151s]         	'd_rover4 = nirav_assn2.d_rover4:main',
+[1.151s]         ^
+[1.151s] 
+[1.151s] ./setup.py:25:9: E101 indentation contains mixed spaces and tabs
+[1.151s]         	'd_rover4 = nirav_assn2.d_rover4:main',
+[1.151s]         ^
+[1.151s] 
+[1.151s] ./setup.py:26:9: W191 indentation contains tabs
+[1.151s]         	'basestation = nirav_assn2.basestation:main',
+[1.151s]         ^
+[1.151s] 
+[1.151s] ./setup.py:26:9: E101 indentation contains mixed spaces and tabs
+[1.151s]         	'basestation = nirav_assn2.basestation:main',
+[1.151s]         ^
+[1.151s] 
+[1.151s] ./src/d_rover3.py:8:1: E302 expected 2 blank lines, found 1
+[1.151s] class RoverNode(Node):
+[1.151s] ^
+[1.151s] 
+[1.152s] ./src/d_rover3.py:18:24: F541 f-string is missing placeholders
+[1.152s]             msg.data = f"Task accomplished"
+[1.152s]                        ^
+[1.152s] 
+[1.152s] ./src/d_rover3.py:20:100: E501 line too long (119 > 99 characters)
+[1.152s]             self.get_logger().info(f"Published: Random Generated Integer is {generated_integer} --> Task accomplished")
+[1.152s]                                                                                                    ^
+[1.152s] 
+[1.152s] ./src/d_rover3.py:24:100: E501 line too long (116 > 99 characters)
+[1.152s]             self.get_logger().info(f"Published: Random Generated Integer is {generated_integer} --> Mission Failed")
+[1.152s]                                                                                                    ^
+[1.152s] 
+[1.152s] ./src/d_rover3.py:26:1: E302 expected 2 blank lines, found 1
+[1.152s] def main(args=None):
+[1.152s] ^
+[1.152s] 
+[1.152s] ./src/d_rover3.py:33:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.152s] if __name__ == '__main__':
+[1.152s] ^
+[1.152s] 
+[1.153s] ./src/d_rover1.py:8:1: E302 expected 2 blank lines, found 1
+[1.153s] class RoverNode(Node):
+[1.153s] ^
+[1.153s] 
+[1.153s] ./src/d_rover1.py:20:1: E302 expected 2 blank lines, found 1
+[1.153s] def main(args=None):
+[1.153s] ^
+[1.153s] 
+[1.153s] ./src/d_rover1.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.153s] if __name__ == '__main__':
+[1.153s] ^
+[1.153s] 
+[1.153s] ./src/d_rover4.py:7:1: F401 'std_msgs.msg.String' imported but unused
+[1.153s] from std_msgs.msg import String
+[1.153s] ^
+[1.153s] 
+[1.153s] ./src/d_rover4.py:10:1: E302 expected 2 blank lines, found 1
+[1.153s] class DaughterRover4(Node):
+[1.153s] ^
+[1.153s] 
+[1.153s] ./src/d_rover4.py:20:38: W291 trailing whitespace
+[1.154s]         msg.current_location = Pose()  
+[1.154s]                                      ^
+[1.154s] 
+[1.154s] ./src/d_rover4.py:25:1: E302 expected 2 blank lines, found 1
+[1.154s] def main(args=None):
+[1.154s] ^
+[1.154s] 
+[1.154s] ./src/d_rover4.py:32:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.154s] if __name__ == '__main__':
+[1.154s] ^
+[1.154s] 
+[1.154s] ./src/basestation.py:9:1: E302 expected 2 blank lines, found 1
+[1.154s] class BaseStation(Node):
+[1.154s] ^
+[1.154s] 
+[1.154s] ./src/basestation.py:29:1: W293 blank line contains whitespace
+[1.154s]         
+[1.154s] ^
+[1.154s] 
+[1.154s] ./src/basestation.py:44:1: W293 blank line contains whitespace
+[1.154s]     
+[1.154s] ^
+[1.155s] 
+[1.155s] ./src/basestation.py:51:1: E302 expected 2 blank lines, found 1
+[1.155s] def main(args=None):
+[1.155s] ^
+[1.155s] 
+[1.155s] ./src/basestation.py:58:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.155s] if __name__ == '__main__':
+[1.155s] ^
+[1.155s] 
+[1.155s] ./src/d_rover2.py:8:1: E302 expected 2 blank lines, found 1
+[1.155s] class RoverNode(Node):
+[1.155s] ^
+[1.155s] 
+[1.155s] ./src/d_rover2.py:22:1: E302 expected 2 blank lines, found 1
+[1.155s] def main(args=None):
+[1.155s] ^
+[1.155s] 
+[1.155s] ./src/d_rover2.py:29:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.155s] if __name__ == '__main__':
+[1.155s] ^
+[1.155s] 
+[1.156s] ./src/d_rover2.py:31:1: W293 blank line contains whitespace
+[1.156s]     
+[1.156s] ^
+[1.156s] 
+[1.156s] 4     E101 indentation contains mixed spaces and tabs
+[1.156s] 11    E302 expected 2 blank lines, found 1
+[1.156s] 5     E305 expected 2 blank lines after class or function definition, found 1
+[1.156s] 2     E501 line too long (119 > 99 characters)
+[1.156s] 2     F401 'launch' imported but unused
+[1.156s] 1     F541 f-string is missing placeholders
+[1.156s] 4     W191 indentation contains tabs
+[1.156s] 1     W291 trailing whitespace
+[1.156s] 3     W293 blank line contains whitespace
+[1.156s] 
+[1.156s] 11 files checked
+[1.156s] 33 errors
+[1.156s] 
+[1.156s] 'E'-type errors: 22
+[1.156s] 'F'-type errors: 3
+[1.156s] 'W'-type errors: 8
+[1.156s] 
+[1.157s] Checked files:
+[1.157s] 
+[1.157s] * ./all_nodes.launch.py
+[1.157s] * ./setup.py
+[1.157s] * ./src/d_rover3.py
+[1.157s] * ./src/d_rover1.py
+[1.157s] * ./src/d_rover4.py
+[1.157s] * ./src/__init__.py
+[1.157s] * ./src/basestation.py
+[1.157s] * ./src/d_rover2.py
+[1.157s] * ./test/test_pep257.py
+[1.157s] * ./test/test_copyright.py
+[1.157s] * ./test/test_flake8.py
+[1.157s] ----------------------------- Captured stderr call -----------------------------
+[1.157s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[1.157s] - generated xml file: /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/pytest.xml -
+[1.157s] [33m=============================== warnings summary ===============================[0m
+[1.157s] test/test_flake8.py::test_flake8
+[1.157s] test/test_flake8.py::test_flake8
+[1.157s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.157s] 
+[1.158s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.158s] =========================== short test summary info ============================
+[1.158s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 33 code style...
+[1.158s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.38s[0m[31m ==============[0m
+[1.231s] Invoked command in '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/src/nirav_assn2' returned '1': AMENT_PREFIX_PATH=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short "--junit-xml=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/pytest.xml" --junit-prefix=nirav_assn2 -o "cache_dir=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/.pytest_cache" PYTHONPATH=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

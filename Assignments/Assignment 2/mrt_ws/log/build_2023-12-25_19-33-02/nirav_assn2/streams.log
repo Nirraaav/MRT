@@ -1,0 +1,26 @@
+[1.089s] Invoking command in '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/src/nirav_assn2': PYTHONPATH=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/prefix_override:/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nirav_assn2 build --build-base /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/build install --record /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/install.log --single-version-externally-managed
+[1.388s] running egg_info
+[1.388s] writing ../../build/nirav_assn2/nirav_assn2.egg-info/PKG-INFO
+[1.389s] writing dependency_links to ../../build/nirav_assn2/nirav_assn2.egg-info/dependency_links.txt
+[1.389s] writing entry points to ../../build/nirav_assn2/nirav_assn2.egg-info/entry_points.txt
+[1.389s] writing requirements to ../../build/nirav_assn2/nirav_assn2.egg-info/requires.txt
+[1.389s] writing top-level names to ../../build/nirav_assn2/nirav_assn2.egg-info/top_level.txt
+[1.391s] reading manifest file '../../build/nirav_assn2/nirav_assn2.egg-info/SOURCES.txt'
+[1.392s] writing manifest file '../../build/nirav_assn2/nirav_assn2.egg-info/SOURCES.txt'
+[1.392s] running build
+[1.392s] running build_py
+[1.392s] running install
+[1.392s] running install_lib
+[1.399s] running install_data
+[1.399s] copying package.xml -> /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/share/nirav_assn2
+[1.399s] running install_egg_info
+[1.401s] removing '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages/nirav_assn2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.401s] Copying ../../build/nirav_assn2/nirav_assn2.egg-info to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages/nirav_assn2-0.0.0-py3.10.egg-info
+[1.402s] running install_scripts
+[1.424s] Installing basestation script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+[1.424s] Installing d_rover1 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+[1.425s] Installing d_rover2 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+[1.425s] Installing d_rover3 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+[1.425s] Installing d_rover4 script to /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/nirav_assn2
+[1.425s] writing list of installed files to '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/install.log'
+[1.456s] Invoked command in '/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/src/nirav_assn2' returned '0': PYTHONPATH=/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/prefix_override:/home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/install/nirav_assn2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nirav_assn2 build --build-base /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/build install --record /home/nirav24/Desktop/MRT/Assignments/Assignment 2/mrt_ws/build/nirav_assn2/install.log --single-version-externally-managed
